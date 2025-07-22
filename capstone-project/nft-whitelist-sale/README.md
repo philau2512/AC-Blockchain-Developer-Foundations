@@ -74,11 +74,13 @@ Run the test suite:
 npx hardhat test
 ```
 
+<img src="https://res.cloudinary.com/dkepitcb7/image/upload/v1753153493/test-nft-whitelist-sale_sqgxk4.png" width=500>
+
 ### Deployment
 
 Deploy to Sepolia testnet:
 ```bash
-npx hardhat deploy --network sepolia
+npx hardhat deploy --network sepolia --tag deploy
 ```
 
 Deploy to Ethereum mainnet:
