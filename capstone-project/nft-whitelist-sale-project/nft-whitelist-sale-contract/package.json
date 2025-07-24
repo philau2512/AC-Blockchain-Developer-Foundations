@@ -40,10 +40,10 @@
     "hardhat-abi-exporter": "^2.10.1",
     "hardhat-contract-sizer": "^2.9.0",
     "hardhat-gas-reporter": "2.3.0",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.0.4",
     "keccak256": "^1.0.6",
-    "merkletreejs": "^0.3.10"
+    "merkletreejs": "^0.3.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
   },
   "prettier": {
     "printWidth": 120
