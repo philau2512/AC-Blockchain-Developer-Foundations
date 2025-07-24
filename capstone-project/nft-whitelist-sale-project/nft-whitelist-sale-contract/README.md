@@ -13,11 +13,11 @@ This project implements an ERC721 NFT collection with a whitelist mechanism, all
 
 ## Contract Details
 
-- **Name**: NFTWhitelistSale
-- **Symbol**: NFTWS
-- **Price**: 0.000001 ETH per NFT
-- **Max Supply**: 50 NFTs
-- **Max Per Wallet**: 2 NFTs
+- **Name**: "NFT Whitelist Private Sale"
+- **Symbol**: NWPS
+- **Price**: 0.0001 ETH per NFT
+- **Max Supply**: 100 NFTs
+- **Max Per Wallet**: 10 NFTs
 
 ## Tech Stack
 
@@ -67,15 +67,6 @@ This project implements an ERC721 NFT collection with a whitelist mechanism, all
    ETHERSCAN_API=your_etherscan_api_key
    ```
 
-### Testing
-
-Run the test suite:
-```bash
-npx hardhat test
-```
-
-<img src="https://res.cloudinary.com/dkepitcb7/image/upload/v1753153493/test-nft-whitelist-sale_sqgxk4.png" width=500>
-
 ### Deployment
 
 Deploy to Sepolia testnet:
@@ -105,7 +96,7 @@ npx hardhat deploy --network mainet
 - Withdraw ETH: https://sepolia.etherscan.io/tx/0x26f2db5036eb8a126022f562ee0405a1f5e088c62f69d6f4b1959674e548dee2
 ```
 
-Lastest contract: 0xb2e1832AD523F5ffC43BED3B9052E8d498F49BA9
+Lastest contract: 0x42336E0a8b4D731df5725f7F8a54BE667A993fA9
 ## License
 
 MIT

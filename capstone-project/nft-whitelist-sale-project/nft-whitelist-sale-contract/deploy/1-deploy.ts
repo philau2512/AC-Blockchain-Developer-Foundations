@@ -11,7 +11,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   console.log("====================");
 
   console.log("====================");
-  console.log("Deploy NFTWhitelistSale Contract");
+  console.log("Deploy NFTSaleWhitelist Contract");
   console.log("====================");
 
   const nftName = "NFT Whitelist Private Sale";
@@ -23,9 +23,9 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     "https://harlequin-written-sheep-298.mypinata.cloud/ipfs/bafkreifxiuha2vxqm2w5bxmuqnzlmcznbfuifkb5lak7epj362vuy4gs5u/";
 
   // Tăng giá gas để ưu tiên giao dịch
-  const gasPrice = hre.ethers.parseUnits("0.01", "gwei").toString();
+  const gasPrice = hre.ethers.parseUnits("1.5", "gwei").toString();
 
-  await deploy("NFTWhitelistSale", {
+  await deploy("NFTSaleWhitelist", {
     from: deployer,
     log: true,
     args: [nftName, nftSymbol, maxSupply, maxPerWallet, baseURI, mintPrice],
